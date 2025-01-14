@@ -67,7 +67,7 @@ The models were fine-tuned using the following infrastructure and techniques:
 *   **Parameter-Efficient Fine-tuning (PEFT):** Low-Rank Adaptation (LoRA) was employed to efficiently fine-tune the large Gemma2 models while minimizing computational costs and memory requirements.
 *   **Hardware:**
     *   **Phase 1 & 2:** Training for the 2B and 9B parameter models was conducted on Kaggle Notebooks, leveraging 2x Nvidia T4 GPUs and TPUv3.
-    *   **Phase 3:** The DPO fine-tuning was performed on a Kaggle Notebook equipped with a single Nvidia A100 40GB GPU.
+    *   **Phase 3:** The DPO fine-tuning was performed on a colab Notebook equipped with a single Nvidia A100 40GB GPU.
     *   **Phase 4:** This phase used Nvidia P100 GPUs.
 *   **Quantization:**  Quantization techniques (e.g., bitsandbytes) were utilized during training to further reduce memory footprint and potentially accelerate computations.
 
